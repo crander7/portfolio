@@ -1,0 +1,36 @@
+.skills-icon {
+	font-size: 10em;
+}
+
+.img-skills {
+	height: 10em;
+}
+
+.center-img {
+	display: flex;
+	justify-content: center;
+}
+
+.force-contain {
+	height: 214px
+}
+
+.devicons {
+	font-size: 10em;
+}
+
+.devicons-nodejs_small {
+	color: #80bd01;
+}
+
+.devicons-mongodb {
+	color: #6ba442;
+}
+
+.devicons-aws {
+	color: #eeba37;
+}
+
+.fa-google {
+	color: #dd4b39;
+}
