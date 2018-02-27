@@ -11,7 +11,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start index.js --name portfolio",
+    "logs": "pm2 logs portfolio --lines 100",
+    "stop": "pm2 stop portfolio",
+    "restart": "pm2 restart portfolio",
+    "delete": "pm2 delete portfolio"
   },
   "author": "",
   "license": "ISC"
